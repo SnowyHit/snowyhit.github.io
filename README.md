@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## About Myself
 
-You can use the [editor on GitHub](https://github.com/SnowyHit/snowyhit.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am a computer engineer that have a lot of interest in learning how things work. And solving puzzles , trying to figure out what can i do with a limited set of tools. That kind of thinking led me into the bachelors degree in computer science , because i think coding basically covers all this ideas.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I learned basics of coding in university , algorithms  , Object Oriented Programming ideals , writing a cleaner code , learning about performance and theory. Also i learned to actually implement those ideas on different coding languages , such as C# , python , ruby , C++ and languages i have tried to write some code in. I'm not sufficent at those because i always learned just about enough to get my projects done .
 
-### Markdown
+I have made some internships in web technologies and gaming industry , and tried to work as a team , learning the teamwork , developing better communication skills . I'm confident with my ability in communication and research.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I focus my interest on games , and always tried to gamify my tasks. As in making algoritms , i always tried to make some similarities to a game. 
 
-```markdown
-Syntax highlighted code block
+You can find my blog about my learnings in the process -Link- here
 
-# Header 1
-## Header 2
-### Header 3
+### Education
 
-- Bulleted
-- List
+Bachelor's Degree in Computer Engineering - Pamukkale University.
 
-1. Numbered
-2. List
+### Projects
 
-**Bold** and _Italic_ and `Code` text
+Hortel  - A simple 3D horror game in unity.
+Adventure - A flutter project about a choice based game.
+Just Go On - A Basic 2D platfomer game for android.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SnowyHit/snowyhit.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

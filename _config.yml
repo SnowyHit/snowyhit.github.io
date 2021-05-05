@@ -3,3 +3,4 @@ ignore_theme_config: true
 title: Mert Karavural
 description: Computer Engineer
 show_downloads: false
+is_project_page: false

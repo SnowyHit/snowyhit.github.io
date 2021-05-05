@@ -11,32 +11,32 @@ TBD --You can find my blog about my learnings in the process -Link- here
 
 ### Skills And Abilities.
 
-Unity3D - Mid to beginner 
-Unreal - Beginner 
-Flutter - Beginner to mid 
-Html-Javascript - Beginner 
+Unity3D - Mid to beginner    
+Unreal - Beginner    
+Flutter - Beginner to mid    
+Html-Javascript - Beginner    
 
 See projects
 
 ### Education
 
-Bachelor's Degree in Computer Engineering - Pamukkale University. (2016 - 2021)
+Bachelor's Degree in Computer Engineering - Pamukkale University. (2016 - 2021)    
 
 ### Language Proficencies
 
-English - Upper intermediate
+English - Upper intermediate   
 Turkish - Native
 
 ### Projects
 
 Hortel  - A simple 3D horror game in unity.  
 [Adventure](https://github.com/SnowyHit/Textbased "Show me the code") - A flutter project about a choice based game.   
-[Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android. 
+[Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android.     
 [BrowserRPG](https://github.com/SnowyHit/BKFT-game "Show me the code") - A simple proof of concept for browser - text based simple rpg game.(Currently not working , here just for the codes.)
 
 ### Contact & Information
 
-Contact - Mert.Karavural@gmail.com 
-Birthdate - 23.09.1998
+Contact - Mert.Karavural@gmail.com    
+Birthdate - 23.09.1998  
 
 

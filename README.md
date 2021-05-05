@@ -1,4 +1,4 @@
-## About Myself
+### About Myself
 
 I am a computer engineer that have a lot of interest in learning how things work. And solving puzzles , trying to figure out what can i do with a limited set of tools. That kind of thinking led me into the bachelors degree in computer science , because i think coding basically covers all this ideas.   
 

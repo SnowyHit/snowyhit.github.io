@@ -28,9 +28,9 @@ Turkish - Native
 
 ### Projects
 
-[BrowserRPG](https://github.com/SnowyHit/BKFT-game "Show me the code") - A simple proof of concept for browser - text based simple rpg game.(Currently not working , here just for the codes.)   
+[BrowserRPG](https://github.com/SnowyHit/BKFT-game "Show me the code") - A simple proof of concept for browser - text based simple rpg game.(Currently not live anywhere , here just for the codes.)   
 [Adventure](https://github.com/SnowyHit/Textbased "Show me the code") - A flutter project about a choice based game.     
-[Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android.       
+[Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android made by unity.       
 
 
 ### Contact & Information

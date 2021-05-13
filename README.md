@@ -34,7 +34,7 @@ Turkish - Native
 
 ### Contact & Information
 
-Contact - Mert.Karavural@gmail.com    
+Contact - mert.karavural@gmail.com    
 Birthdate - 23.09.1998  
 Github - [SnowyHit](https://github.com/SnowyHit)  
 LinkedIn - [Mert Karavural](https://www.linkedin.com/in/mert-karavural-0ba823206/)

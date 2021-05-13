@@ -5,7 +5,7 @@ I learned basics of coding in university , algorithms  , Object Oriented Program
 
 I have made some internships in web technologies , tried to work as a team , learning the teamwork , developing better communication skills . I'm confident with my ability in communication and research.   
 
-I focus my interest on games , and always tried to gamify my tasks. As in making algoritms , i always tried to make some similarities to a game. I got into game development in my last years , worked on gamemaker , unreal and unity , in the end i have chosen unity as a development platform that i can finish projects myself. I also researched , and created a simple 3D horror game for my thesis , but that was too shallow to actually count as a project in my eyes.I mainly learned the storymaking and game design concepts there , and the basics to game engines.   
+I focus my interest on games , and always tried to gamify my tasks. I studied game design principles , mechanics and how they work on paper.
 
 ### Skills And Abilities.
 

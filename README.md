@@ -1,11 +1,9 @@
 
-I am a computer engineer that have a lot of interest in learning how things work. And solving puzzles , trying to figure out what can i do with a limited set of tools. That kind of thinking led me into the bachelors degree in computer science , because i think coding basically covers all this ideas.   
+I am a computer engineer that have a lot of interest in learning how things work. And solving puzzles, trying to figure out what can i do with a limited set of tools. That kind of thinking led me into the bachelors degree in computer science, because i think coding basically covers all this ideas.  
 
-I learned basics of coding in university , algorithms  , Object Oriented Programming ideals , writing a cleaner code , learning about performance and theory. I tried to implement things i've learned with different coding languages such as C++ , C# , Ruby ,Python ,Dart etc.
+I have made some internships in web technologies and Gaming industry, tried to work as a team, learning the teamwork, developing better communication skills . I'm confident with my ability in communication and research.   
 
-I have made some internships in web technologies , tried to work as a team , learning the teamwork , developing better communication skills . I'm confident with my ability in communication and research.   
-
-I focus my interest on games , and always tried to gamify my tasks. I studied game design principles , mechanics and how they work on paper. I mainly work on unity3D and developped some games , tried to upload them to appstore to understand the process. Also got some basic understanding of other game engines.
+I focus my interest on games, and always tried to gamify my tasks. I studied game design principles, mechanics and how they work on paper. I mainly work on unity3D and developped some games, tried to upload them to appstore to understand the process. Also got some basic understanding of other game engines.
 
 ### Skills And Abilities.
 

@@ -33,7 +33,7 @@ Turkish - Native
 
 [Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android made by unity.   
 [Runner Clone](https://github.com/SnowyHit/RunnerExample "Show me the code") - Runner game example to learn Object pooling.   
-[SpaceShip Game](https://github.com/SnowyHit/SpaceShip "Show me the code") -A space follow the path style game with 3 basic levels .  Made for avalanche hacks , learnt to integrate nft's. Also a cool space control mechanic put together.       
+[SpaceShip Game](https://github.com/SnowyHit/SpaceShip "Show me the code") -A space follow the path style game with 3 basic levels , space control mechanic put together.       
 [SpeedBall Clone Game](https://github.com/SnowyHit/SpeedBallClone "Show me the code") - Simple Speed ball style game with spheres and cubes.    
 [Colorfill3D Clone](https://github.com/SnowyHit/ColorFillClone "Show me the code") - Mechanical clone of ColorFill3D game . made in unity ( just for the mechanics , no graphics intended)   
 

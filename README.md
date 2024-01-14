@@ -18,6 +18,7 @@ Bachelor's Degree in Computer Engineering - Pamukkale University. (2016 - 2021)
 ### Work Experience
 
 Inventuna Games - Game Developer. (2021 jul - **) 
+
 100M Games - Intern Game Developer. (2021 may - 2021 jun)       
 
 ### Language Proficencies

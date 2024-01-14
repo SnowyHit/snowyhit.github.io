@@ -7,9 +7,7 @@ I focus my interest on games, and always tried to gamify my tasks. I studied gam
 
 ### Skills And Abilities.
 
-Unity3D - Mid to beginner    
-Unreal - Beginner    
-C# - Beginner-Mid   
+Unity3D / Unreal / C# / C++
 
 See projects
 
@@ -19,7 +17,7 @@ Bachelor's Degree in Computer Engineering - Pamukkale University. (2016 - 2021)
 
 ### Work Experience
 
-Inventuna Games - Game Developer. (2021 jul - **)    
+Inventuna Games - Game Developer. (2021 jul - **) 
 100M Games - Intern Game Developer. (2021 may - 2021 jun)       
 
 ### Language Proficencies
@@ -29,12 +27,13 @@ Turkish - Native
 
 ### Projects
 
+OnUnity :
 [LittleRTSbase](https://github.com/SnowyHit/LittleRTS "Show me the code") - Some Mechanics of RTS to work out grid management , pathfinding.  
 [Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android made by unity.   
-[Runner Clone](https://github.com/SnowyHit/RunnerExample "Show me the code") - Runner game example to learn Object pooling.   
-[SpaceShip Game](https://github.com/SnowyHit/SpaceShip "Show me the code") -A space follow the path style game with 3 basic levels , space control mechanic put together.       
-[SpeedBall Clone Game](https://github.com/SnowyHit/SpeedBallClone "Show me the code") - Simple Speed ball style game with spheres and cubes.    
-[Colorfill3D Clone](https://github.com/SnowyHit/ColorFillClone "Show me the code") - Mechanical clone of ColorFill3D game . made in unity ( just for the mechanics , no graphics intended) 
+[SpaceShip Game](https://github.com/SnowyHit/SpaceShip "Show me the code") -A space follow the path style game with 3 basic levels , space control mechanic put together.
+
+OnUnreal : 
+
 
 ### Contact & Information
 

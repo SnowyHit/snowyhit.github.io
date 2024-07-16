@@ -17,7 +17,9 @@ Bachelor's Degree in Computer Engineering - Pamukkale University. (2016 - 2021)
 
 ### Work Experience
 
-Inventuna Games - Game Developer. (2021 jul - **) 
+TaleEra Interactive - Game Developer. (2023 sep - **) 
+
+Inventuna Games - Game Developer. (2021 jul - 2023-sep) 
 
 100M Games - Intern Game Developer. (2021 may - 2021 jun)       
 
@@ -28,6 +30,7 @@ Turkish - Native
 
 ### Projects
 Worked On : 
+[Holy Shoot](https://store.steampowered.com/app/2881660/Holy_Shoot/ "Look At The Project")
 
 [Heroes Chained](https://heroeschained.com/ "Look At The Project , Or Download it")
 
@@ -39,7 +42,7 @@ OnUnity :
 [SpaceShip Game](https://github.com/SnowyHit/SpaceShip "Show me the code") -A space follow the path style game with 3 basic levels , space control mechanic put together.
 
 OnUnreal : 
-
+[Basic Ecosis Sim](https://github.com/SnowyHit/EcosisSim "Show me the code") -A small work of mine to grasp the basics of unreal.
 
 ### Contact & Information
 

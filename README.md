@@ -24,7 +24,7 @@ Strong collaborator who values clear communication, knowledge sharing, and devel
 
 ## Work Experience
 **TaleEra Interactive** – Game Developer  
-*Sep 2023 – Present*  
+*Sep 2023 – Aug 2025*  
 
 **Inventuna Games** – Game Developer  
 *Jul 2021 – Sep 2023*  

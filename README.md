@@ -1,56 +1,63 @@
+# Mert Karavural
+**Game Developer | Computer Engineer**  
 
-I'm a Computer Engineer with a strong interest in understanding how systems work and solving problems with limited tools. This mindset naturally led me to explore game development, where technical problem-solving and creativity go hand in hand.
+**Email:** mert.karavural@gmail.com  
+**LinkedIn:** [Mert Karavural](https://www.linkedin.com/in/mert-karavural-0ba823206/)  
+**GitHub:** [SnowyHit](https://github.com/SnowyHit)  
+**Date of Birth:** 23.09.1998  
+**Location:** Turkey  
 
-I primarily work with Unreal Engine, developing gameplay systems, building mechanics, and exploring design ideas from both a technical and theoretical perspective. I also have experience with Unity and a basic familiarity with other game engines.
+---
 
-Collaboration and clear communication are important to me. I value working as part of a team, sharing ideas, and approaching challenges with a problem-solving mindset. I'm especially interested in game design principles and how thoughtful systems can create engaging player experiences.
+## Profile
+Computer Engineering graduate and experienced game developer with a strong focus on understanding how systems work and creating innovative solutions with limited tools.  
+Specialized in Unreal Engine for gameplay systems, mechanics, and game design concepts, with additional experience in Unity.  
+I value teamwork, clear communication, and applying game design principles to create engaging player experiences.
 
-### Skills And Abilities.
+---
 
-Unity3D / Unreal / C# / C++
+## Technical Skills
+- **Game Engines:** Unreal Engine, Unity3D  
+- **Programming Languages:** C++, C#  
+- **Other Skills:** Gameplay Systems, Level Mechanics, Pathfinding, Grid Management, Game Design Principles  
 
-See projects
+---
 
-### Education
+## Work Experience
+**TaleEra Interactive** – Game Developer  
+*Sep 2023 – August 2025*  
 
-Bachelor's Degree in Computer Engineering - Pamukkale University. (2016 - 2021)    
+**Inventuna Games** – Game Developer  
+*Jul 2021 – Sep 2023*  
 
-### Work Experience
+**100M Games** – Intern Game Developer  
+*May 2021 – Jun 2021*  
 
-TaleEra Interactive - Game Developer. (2023 sep - **) 
+---
 
-Inventuna Games - Game Developer. (2021 jul - 2023-sep) 
+## Education
+**Pamukkale University** – Bachelor's Degree in Computer Engineering  
+*2016 – 2021*  
 
-100M Games - Intern Game Developer. (2021 may - 2021 jun)       
+---
 
-### Language Proficencies
+## Projects
 
-English - Upper intermediate   
-Turkish - Native
+### Commercial Games
+- [**Holy Shoot**](https://store.steampowered.com/app/2881660/Holy_Shoot/) – Released on Steam, arcade-style action game.  
+- [**Cart Capers**](https://store.steampowered.com/app/3582170/Cart_Capers/) – Multiplayer party racing game.  
+- [**Heroes Chained**](https://heroeschained.com/) – Blockchain-based RPG with real-time combat mechanics.
 
-### Projects
-Worked On : 
-[Holy Shoot](https://store.steampowered.com/app/2881660/Holy_Shoot/ "Look At The Project")
+### Unity Projects
+- [**LittleRTSbase**](https://github.com/SnowyHit/LittleRTS) – Core RTS mechanics including grid management and pathfinding.  
+- [**Just Go On**](https://github.com/SnowyHit/Just-Go-On) – Basic 2D platformer for Android.  
+- [**SpaceShip Game**](https://github.com/SnowyHit/SpaceShip) – 3-level space game with path-following mechanics.
 
-[Cart Capers](https://store.steampowered.com/app/3582170/Cart_Capers/ "Look At The Project")
+### Unreal Projects
+- [**Basic Ecosis Sim**](https://github.com/SnowyHit/EcosisSim) – Small-scale ecosystem simulation to learn Unreal basics.
 
-[Heroes Chained](https://heroeschained.com/ "Look At The Project , Or Download it")
+---
 
-
-OnUnity :
-
-[LittleRTSbase](https://github.com/SnowyHit/LittleRTS "Show me the code") - Some Mechanics of RTS to work out grid management , pathfinding.  
-[Just Go On](https://github.com/SnowyHit/Just-Go-On "Show me the code") - A Basic 2D platfomer game for android made by unity.   
-[SpaceShip Game](https://github.com/SnowyHit/SpaceShip "Show me the code") -A space follow the path style game with 3 basic levels , space control mechanic put together.
-
-OnUnreal : 
-[Basic Ecosis Sim](https://github.com/SnowyHit/EcosisSim "Show me the code") -A small work of mine to grasp the basics of unreal.
-
-### Contact & Information
-
-Contact - mert.karavural@gmail.com    
-Birthdate - 23.09.1998  
-Github - [SnowyHit](https://github.com/SnowyHit)  
-LinkedIn - [Mert Karavural](https://www.linkedin.com/in/mert-karavural-0ba823206/)
-
-
+## Languages
+- **Turkish** – Native  
+- **English** – Upper Intermediate  

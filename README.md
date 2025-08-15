@@ -7,16 +7,17 @@
 ---
 
 ## Profile
-Computer Engineering graduate and experienced game developer with a strong focus on understanding how systems work and creating innovative solutions with limited tools.  
-Specialized in Unreal Engine for gameplay systems, mechanics, and game design concepts, with additional experience in Unity.  
-I value teamwork, clear communication, and applying game design principles to create engaging player experiences.
+Computer Engineering graduate and versatile programmer with experience building interactive systems, tools, and applications. Skilled in designing and implementing efficient, maintainable code with a strong understanding of software architecture and performance optimization.
 
+Experienced in game development using Unreal Engine and Unity, creating gameplay systems, mechanics, and interactive environments through both C++/C# and engine-specific tools. Adept at debugging, profiling, and solving technical challenges creatively.
+
+Strong collaborator who values clear communication, knowledge sharing, and developing solutions that enhance user and player experiences.
 ---
 
 ## Technical Skills
 - **Game Engines:** Unreal Engine, Unity3D  
 - **Programming Languages:** C++, C#  
-- **Other Skills:** Gameplay Systems, Level Mechanics, Pathfinding, Grid Management, Game Design Principles  
+- **Programming Skills:** Object-Oriented Programming (OOP), Data Structures & Algorithms, Event-Driven Programming, Debugging & Profiling, Multiplayer Networking Basics, Gameplay Systems Development, Game Design Principles
 
 ---
 

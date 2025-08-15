@@ -1,25 +1,8 @@
----
-layout: default
-title: Mert Karavural
----
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-<div style="flex: 1;">
-
-# Mert Karavural
-**Game Developer | Computer Engineer**  
-
 **Email:** mert.karavural@gmail.com  
 **LinkedIn:** [Mert Karavural](https://www.linkedin.com/in/mert-karavural-0ba823206/)  
 **GitHub:** [SnowyHit](https://github.com/SnowyHit)  
 **Date of Birth:** 23.09.1998  
 **Location:** Turkey  
-
-</div>
-<div style="margin-left: 20px;">
-<img src="your-photo.jpg" alt="Mert Karavural" style="width:150px; border-radius: 8px;">
-</div>
-</div>
 
 ---
 
@@ -39,7 +22,7 @@ I value teamwork, clear communication, and applying game design principles to cr
 
 ## Work Experience
 **TaleEra Interactive** – Game Developer  
-*Sep 2023 – August 2025*  
+*Sep 2023 – Present*  
 
 **Inventuna Games** – Game Developer  
 *Jul 2021 – Sep 2023*  

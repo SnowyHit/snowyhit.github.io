@@ -12,6 +12,7 @@ Computer Engineering graduate and versatile programmer with experience building 
 Experienced in game development using Unreal Engine and Unity, creating gameplay systems, mechanics, and interactive environments through both C++/C# and engine-specific tools. Adept at debugging, profiling, and solving technical challenges creatively.
 
 Strong collaborator who values clear communication, knowledge sharing, and developing solutions that enhance user and player experiences.
+
 ---
 
 ## Technical Skills

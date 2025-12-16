@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<title>Aile Yılbaşı Çekilişi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: #e5e7eb;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.card {
+background: #020617;
+padding: 24px;
+border-radius: 14px;
+width: 100%;
+max-width: 380px;
+box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+text-align: center;
+}
+h1 { font-size: 22px; margin-bottom: 8px; }
+p { font-size: 14px; opacity: 0.85; }
+.result {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+.error { color: #f87171; }
+</style>
+</head>
+<body>
+<div class="card">
+<h1>🎁 Yılbaşı Çekilişi</h1>
+<p>Bu link sana özel. Sonucu sadece sen görebilirsin.</p>
+<div id="result"></div>
+</div>
+
+
+<script>
+/*
+KULLANIM:
+Her kişiye aşağıdaki gibi link gönder:
+https://snowyhit.github.io/?code=TUBA123
+*/
+
+
+const cekilis = {
+"TUBA123": "Alya",
+"ALYA456": "Umut",
+"UMUT789": "Celal",
+"CELAL321": "Lale",
+"LALE654": "Levent",
+"LEVENT987": "Fikret",
+"FIKRET147": "Hayal",
+"HAYAL258": "Bahar",
+"BAHAR369": "Mert",
+"MERT159": "Tuba"
+};
+
+
+// Tek seferlik görüntüleme için localStorage kullanılır
+
+
+const params = new URLSearchParams(window.location.search);
+const code = params.get("code");
+const resultDiv = document.getElementById("result");
+
+
+if (!code) {
+  resultDiv.innerHTML = '<span class="error">Geçersiz link.</span>';
+
+} else if (localStorage.getItem("used_" + code)) {
+  resultDiv.innerHTML = '<span class="error">❌ Bu link daha önce kullanıldı.</span>';
+
+} else if (cekilis[code]) {
+  localStorage.setItem("used_" + code, "true");
+  resultDiv.innerHTML = `
+    🎉 Sen <u>${cekilis[code]}</u> için hediye alacaksın!
+    <br><br>
+    <small>Bu bilgi sadece <b>bir kez</b> gösterilir.</small>
+  `;
+
+} else {
+  resultDiv.innerHTML = '<span class="error">Kod bulunamadı.</span>';
+}
+</script>
+</body>
+</html>

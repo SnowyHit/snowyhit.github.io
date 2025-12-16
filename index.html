@@ -71,9 +71,6 @@ const resultDiv = document.getElementById("result");
 if (!code) {
   resultDiv.innerHTML = '<span class="error">Geçersiz link.</span>';
 
-} else if (localStorage.getItem("used_" + code)) {
-  resultDiv.innerHTML = '<span class="error">❌ Bu link daha önce kullanıldı.</span>';
-
 } else if (cekilis[code]) {
   localStorage.setItem("used_" + code, "true");
   resultDiv.innerHTML = `

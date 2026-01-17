@@ -1,0 +1,5 @@
+{
+  "name": "CigCounter",
+  "description": "A cigarette tracking app with Google sync, friend activity feeds, and GitHub-style smoking history heatmaps.",
+  "requestFramePermissions": []
+}

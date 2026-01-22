@@ -8,7 +8,7 @@
     :root {
       --primary-color: #111;
       --accent-color: #3498db;
-      --link-color: #2980b9; /* Distinct blue for links */
+      --link-color: #2980b9;
       --text-main: #111;
       --text-light: #555;
       --bg-body: #f5f5f5;
@@ -23,7 +23,6 @@
       line-height: 1.4;
     }
 
-    /* CONTROLS */
     .controls {
       position: fixed;
       top: 20px;
@@ -47,7 +46,6 @@
 
     .btn:hover { background: #2980b9; }
 
-    /* PAGE LAYOUT */
     .page {
       background: var(--bg-card);
       width: 210mm;
@@ -99,7 +97,6 @@
     ul { padding-left: 15px; margin: 4px 0; }
 
     .project-entry { margin-bottom: 8px; }
-    /* Fixed: Consistent font size for all links */
     .project-link { display: block; font-size: 9.5px; color: var(--link-color); text-decoration: none; }
 
     .tag-group { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 12px 0; }
@@ -140,7 +137,7 @@
       </div>
       <div class="contact">
         <span id="header-loc">Turkey</span><br />
-        <span id="header-birth">Birthday: 01.01.1998</span><br />
+        <span id="header-birth">Birthday: 23.09.1998</span><br />
         <a href="mailto:mert.karavural@gmail.com" class="social-link">mert.karavural@gmail.com</a><br />
         <a href="https://tr.linkedin.com/in/mert-karavural" class="social-link">LinkedIn</a><br />
         <a href="https://github.com/SnowyHit" class="social-link">GitHub</a>
@@ -312,7 +309,7 @@
         </div>
 
         <h2 id="edu-title">Education</h2>
-        <p><strong>Pamukkale University</strong></p>
+        <p><strong id="label-uni">Pamukkale University</strong></p>
         <p id="label-degree">BSc Computer Engineering</p>
         <p class="meta">2016 – 2021</p>
 
@@ -338,6 +335,7 @@
       const labelConcepts = document.getElementById('label-concepts');
       const labelTools = document.getElementById('label-tools');
       const eduTitle = document.getElementById('edu-title');
+      const labelUni = document.getElementById('label-uni');
       const labelDegree = document.getElementById('label-degree');
       const langTitle = document.getElementById('lang-title');
       const trNative = document.getElementById('tr-native');
@@ -349,13 +347,14 @@
         
         jobTitle.innerText = "Bilgisayar Mühendisi · Oyun Geliştirici";
         headerLoc.innerText = "Türkiye";
-        headerBirth.innerText = "Doğum Tarihi: 01.01.1998";
+        headerBirth.innerText = "Doğum Tarihi: 23.09.1998";
         skillsTitle.innerText = "Yetenekler";
         labelEngines.innerText = "Motorlar";
         labelLangs.innerText = "Diller";
         labelConcepts.innerText = "Kavramlar";
         labelTools.innerText = "Araçlar";
         eduTitle.innerText = "Eğitim";
+        labelUni.innerText = "Pamukkale Üniversitesi";
         labelDegree.innerText = "Lisans, Bilgisayar Mühendisliği";
         langTitle.innerText = "Diller";
         trNative.innerText = "Türkçe — Anadil";
@@ -368,13 +367,14 @@
         
         jobTitle.innerText = "Computer Engineer · Game Developer";
         headerLoc.innerText = "Turkey";
-        headerBirth.innerText = "Birthday: 01.01.1998";
+        headerBirth.innerText = "Birthday: 23.09.1998";
         skillsTitle.innerText = "Skills";
         labelEngines.innerText = "Engines";
         labelLangs.innerText = "Languages";
         labelConcepts.innerText = "Concepts";
         labelTools.innerText = "Tools";
         eduTitle.innerText = "Education";
+        labelUni.innerText = "Pamukkale University";
         labelDegree.innerText = "BSc Computer Engineering";
         langTitle.innerText = "Languages";
         trNative.innerText = "Turkish — Native";

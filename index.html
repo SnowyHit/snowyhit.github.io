@@ -2,102 +2,157 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mert Karavural | Game Developer</title>
-  <style>
-    /* Page setup for A4 printing */
+  <title>Mert Karavural | Game Developer</title>  <style>
+    /* A4 PRINT SETUP */
     @page {
       size: A4;
-      margin: 20mm;
-    }body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #111;
-  line-height: 1.35;
-  margin: 0;
-}
+      margin: 18mm;
+    }
 
-.page {
-  max-width: 210mm;
-  margin: auto;
-}
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #111;
+      background: #f5f5f5;
+    }
 
-h1 {
-  font-size: 26px;
-  margin: 0 0 4px 0;
-  letter-spacing: 0.5px;
-}
+    .page {
+      background: #fff;
+      width: 210mm;
+      min-height: 297mm;
+      margin: auto;
+      padding: 18mm;
+      box-sizing: border-box;
+    }
 
-h2 {
-  font-size: 14px;
-  margin: 18px 0 6px 0;
-  text-transform: uppercase;
-  border-bottom: 1px solid #333;
-  padding-bottom: 2px;
-}
+    /* HEADER */
+    .header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      margin-bottom: 18px;
+    }
 
-h3 {
-  font-size: 12.5px;
-  margin: 10px 0 2px 0;
-}
+    .name {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
 
-p, li {
-  font-size: 11px;
-  margin: 2px 0;
-}
+    .title {
+      font-size: 13px;
+      color: #555;
+      margin-top: 2px;
+    }
 
-ul {
-  padding-left: 14px;
-  margin: 4px 0;
-}
+    .contact {
+      text-align: right;
+      font-size: 11px;
+      line-height: 1.4;
+    }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
+    /* LAYOUT */
+    .content {
+      display: grid;
+      grid-template-columns: 3fr 1.4fr;
+      gap: 22px;
+    }
 
-.title span {
-  font-size: 12px;
-  color: #444;
-}
+    /* TIMELINE */
+    .timeline {
+      position: relative;
+      padding-left: 22px;
+    }
 
-.contact {
-  font-size: 10.5px;
-  text-align: right;
-}
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #222;
+    }
 
-.two-column {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 18px;
-}
+    .item {
+      position: relative;
+      margin-bottom: 16px;
+    }
 
-.section {
-  margin-bottom: 10px;
-}
+    .item::before {
+      content: "";
+      position: absolute;
+      left: -1px;
+      top: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid #222;
+    }
 
-.project-note {
-  font-style: italic;
-  font-size: 10.5px;
-}
+    h2 {
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0 0 10px 0;
+    }
 
-a {
-  color: #000;
-  text-decoration: none;
-}
+    h3 {
+      font-size: 12px;
+      margin: 0;
+    }
 
-/* Print tweaks */
-@media print {
-  a { text-decoration: none; }
-}
+    .meta {
+      font-size: 10.5px;
+      color: #555;
+      margin-bottom: 4px;
+    }
 
-  </style>
-</head>
+    p, li {
+      font-size: 11px;
+      line-height: 1.4;
+      margin: 2px 0;
+    }
+
+    ul {
+      padding-left: 14px;
+      margin: 4px 0 0 0;
+    }
+
+    /* RIGHT COLUMN */
+    .side h2 {
+      margin-top: 0;
+    }
+
+    .side p {
+      font-size: 11px;
+      margin: 3px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 10px;
+      border: 1px solid #ccc;
+      padding: 2px 6px;
+      margin: 2px 2px 2px 0;
+    }
+
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+
+    @media print {
+      body { background: #fff; }
+    }
+  </style></head>
 <body>
-  <div class="page"><!-- Header -->
+  <div class="page"><!-- HEADER -->
 <div class="header">
-  <div class="title">
-    <h1>MERT KARAVURAL</h1>
-    <span>Computer Engineer | Game Developer</span>
+  <div>
+    <div class="name">Mert Karavural</div>
+    <div class="title">Computer Engineer · Game Developer</div>
   </div>
   <div class="contact">
     Turkey<br />
@@ -107,81 +162,108 @@ a {
   </div>
 </div>
 
-<!-- Profile -->
-<div class="section">
-  <h2>Profile</h2>
-  <p>
-    Computer Engineering graduate and game developer with professional experience in
-    <strong>Unreal Engine 5 (C++)</strong> and <strong>Unity (C#)</strong>. Experienced in developing
-    gameplay systems, mechanics, and interactive features for commercial games.
-    Comfortable working in both team-based studio environments and as a solo developer.
-  </p>
-</div>
+<div class="content">
 
-<div class="two-column">
-  <!-- Left column -->
-  <div>
-    <div class="section">
-      <h2>Work Experience</h2>
+  <!-- LEFT: TIMELINE -->
+  <div class="timeline">
 
+    <h2>Profile</h2>
+    <div class="item">
+      <p>
+        Game developer with professional experience in <strong>Unreal Engine 5 (C++)</strong> and
+        <strong>Unity (C#)</strong>. Focused on gameplay systems, performance-conscious code, and
+        clean architecture. Experienced in both studio teams and solo development.
+      </p>
+    </div>
+
+    <h2>Work History</h2>
+
+    <div class="item">
       <h3>TaleEra Interactive — Game Developer</h3>
-      <p><em>Sep 2023 – Aug 2025 | Unreal Engine 5</em></p>
+      <div class="meta">Sep 2023 – Aug 2025 · Unreal Engine 5</div>
       <ul>
-        <li>Developed gameplay systems and interactive features using Unreal Engine 5.</li>
-        <li>Worked with C++ and Unreal Gameplay Framework.</li>
-        <li>Focused on debugging, performance, and system stability.</li>
+        <li>Gameplay systems and mechanics using UE5</li>
+        <li>C++ and Unreal Gameplay Framework</li>
+        <li>Debugging, profiling, performance stability</li>
       </ul>
+    </div>
 
+    <div class="item">
       <h3>Inventuna Games — Game Developer</h3>
-      <p><em>Jul 2021 – Sep 2023 | Unity</em></p>
+      <div class="meta">Jul 2021 – Sep 2023 · Unity</div>
       <ul>
-        <li>Developed gameplay systems and mechanics using Unity and C#.</li>
-        <li>Contributed to commercial projects through development and release.</li>
+        <li>Gameplay systems and mechanics in Unity (C#)</li>
+        <li>Worked on commercial projects through release</li>
       </ul>
+    </div>
 
+    <div class="item">
       <h3>100M Games — Intern Game Developer</h3>
-      <p><em>May 2021 – Jun 2021 | Unity</em></p>
+      <div class="meta">May 2021 – Jun 2021 · Unity</div>
       <ul>
-        <li>Assisted with gameplay feature implementation and testing.</li>
+        <li>Gameplay feature implementation and testing</li>
       </ul>
     </div>
 
-    <div class="section">
-      <h2>Projects & Games</h2>
-      <p><strong>Holy Shoot</strong> — Commercial Game</p>
-      <p><strong>Cart Capers</strong> — <span class="project-note">Solo Developed & Shipped</span></p>
+    <h2>Games</h2>
+
+    <div class="item">
+      <p><strong>Holy Shoot</strong> — Steam Release</p>
+      <p><strong>Cart Capers</strong> — <em>Solo Developed & Shipped</em></p>
       <p><strong>Heroes Chained</strong> — Commercial Project</p>
+
+      <p style="margin-top:8px;"><strong>Small Projects & Experiments</strong></p>
+      <ul>
+        <li><strong>Flow Field Pathfinding</strong> — A flow field pathfinding example made in Unity  
+          <a href="https://github.com/SnowyHit/Flowfield-Example">github.com/SnowyHit/Flowfield-Example</a>
+        </li>
+        <li><strong>LittleRTSbase</strong> — RTS-style base systems, unit control, and structure logic in Unity  
+          <a href="https://github.com/SnowyHit/LittleRTS">github.com/SnowyHit/LittleRTS</a>
+        </li>
+        <li><strong>Just Go On</strong> — Core gameplay mechanics and progression systems prototype  
+          <a href="https://github.com/SnowyHit/Just-Go-On">github.com/SnowyHit/Just-Go-On</a>
+        </li>
+        <li><strong>SpaceShip Game</strong> — Spaceship movement, combat mechanics, and physics-based controls  
+          <a href="https://github.com/SnowyHit/SpaceShip">github.com/SnowyHit/SpaceShip</a>
+        </li>
+        <li><strong>Spin Sample</strong> — Small gameplay and mechanics experiment in Unity  
+          <a href="https://github.com/SnowyHit/SpinSample">github.com/SnowyHit/SpinSample</a>
+        </li>
+        <li><strong>Basic Ecosis Sim</strong> — Ecosystem simulation prototype built with Unreal Engine  
+          <a href="https://github.com/SnowyHit/EcosisSim">github.com/SnowyHit/EcosisSim</a>
+        </li>
+      </ul>
     </div>
+
   </div>
 
-  <!-- Right column -->
-  <div>
-    <div class="section">
-      <h2>Technical Skills</h2>
-      <p><strong>Engines:</strong> Unreal Engine 5, Unity</p>
-      <p><strong>Languages:</strong> C++, C#</p>
-      <p><strong>Concepts:</strong></p>
-      <ul>
-        <li>OOP</li>
-        <li>Gameplay Systems</li>
-        <li>Debugging & Profiling</li>
-        <li>Event-Driven Programming</li>
-        <li>Multiplayer Basics</li>
-      </ul>
-    </div>
+  <!-- RIGHT: SIDE -->
+  <div class="side">
 
-    <div class="section">
-      <h2>Education</h2>
-      <p><strong>Pamukkale University</strong></p>
-      <p>BSc — Computer Engineering</p>
-      <p>2016 – 2021</p>
-    </div>
+    <h2>Skills</h2>
+    <p><strong>Engines</strong></p>
+    <span class="tag">Unreal Engine 5</span>
+    <span class="tag">Unity</span>
 
-    <div class="section">
-      <h2>Languages</h2>
-      <p>Turkish — Native</p>
-      <p>English — Upper Intermediate</p>
-    </div>
+    <p><strong>Languages</strong></p>
+    <span class="tag">C++</span>
+    <span class="tag">C#</span>
+
+    <p><strong>Concepts</strong></p>
+    <span class="tag">OOP</span>
+    <span class="tag">Gameplay Systems</span>
+    <span class="tag">Debugging</span>
+    <span class="tag">Profiling</span>
+
+    <h2>Education</h2>
+    <p><strong>Pamukkale University</strong></p>
+    <p>BSc Computer Engineering</p>
+    <p>2016 – 2021</p>
+
+    <h2>Languages</h2>
+    <p>Turkish — Native</p>
+    <p>English — Upper Intermediate</p>
+
   </div>
 </div>
 

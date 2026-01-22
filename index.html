@@ -96,13 +96,13 @@
     ul { padding-left: 15px; margin: 4px 0; }
 
     .project-entry { margin-bottom: 8px; }
-    .github-link { display: block; font-size: 9.5px; color: var(--accent-color); text-decoration: none; }
+    .project-link { display: block; font-size: 9.5px; color: var(--accent-color); text-decoration: none; }
 
     .tag-group { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 12px 0; }
     .tag { font-size: 9.5px; border: 1px solid #ccc; padding: 2px 6px; background: #fafafa; border-radius: 3px; }
 
-    /* LANGUAGE TOGGLE */
-    [lang="tr"] { display: none; }
+    /* Initial state for TR content */
+    .lang-tr { display: none; }
 
     /* ONE PAGE PRINT OPTIMIZATION */
     @media print {
@@ -113,8 +113,8 @@
         box-shadow: none; 
         width: 100%; 
         height: 100%;
-        padding: 8mm; /* Reduced padding */
-        transform: scale(0.96); /* Scale down to ensure 1-page fit */
+        padding: 8mm;
+        transform: scale(0.96); 
         transform-origin: top left;
       }
       h2 { margin-top: 10px; }
@@ -146,7 +146,7 @@
 
     <div class="content">
       <div class="main">
-        <div lang="en">
+        <div class="lang-en">
           <h2>Profile</h2>
           <div class="timeline-item" style="border:none; padding-left:0;">
             <p>Computer Engineer and multi-disciplinary programmer dedicated to building efficient, scalable, and maintainable software systems. Specializing in high-performance gameplay systems using <strong>Unreal Engine 5 (C++)</strong> and <strong>Unity (C#)</strong>, I prioritize clean software architecture and robust debugging across all facets of development.</p>
@@ -178,22 +178,28 @@
 
           <h2>Projects</h2>
           <div class="timeline-item">
-            <p><strong>Holy Shoot</strong> — Steam Release (Developed with TaleEra Interactive)</p>
-            <p><strong>Cart Capers</strong> — Solo Developed & Shipped (Steam Release)</p>
+            <div class="project-entry">
+              <p><strong>Holy Shoot</strong> — Steam Release (Developed with TaleEra Interactive)</p>
+              <a href="https://store.steampowered.com/app/2881660/Holy_Shoot/" class="project-link">store.steampowered.com/app/2881660/Holy_Shoot/</a>
+            </div>
+            <div class="project-entry">
+              <p><strong>Cart Capers</strong> — Solo Developed & Shipped (Steam Release)</p>
+              <a href="https://store.steampowered.com/app/3582170/Cart_Capers/" class="project-link">store.steampowered.com/app/3582170/Cart_Capers/</a>
+            </div>
             <p><strong>Heroes Chained</strong> — Commercial Project</p>
 
             <p style="margin-top:10px; font-weight:700;">Small Projects & Experiments</p>
             <div class="project-entry">
               <p><strong>Flow Field Pathfinding</strong> — A flow field pathfinding example made in Unity</p>
-              <a href="https://github.com/SnowyHit/Flowfield-Example" class="github-link">github.com/SnowyHit/Flowfield-Example</a>
+              <a href="https://github.com/SnowyHit/Flowfield-Example" class="project-link">github.com/SnowyHit/Flowfield-Example</a>
             </div>
             <div class="project-entry">
               <p><strong>LittleRTSbase</strong> — RTS-style base systems, unit control, and structure logic in Unity</p>
-              <a href="https://github.com/SnowyHit/LittleRTS" class="github-link">github.com/SnowyHit/LittleRTS</a>
+              <a href="https://github.com/SnowyHit/LittleRTS" class="project-link">github.com/SnowyHit/LittleRTS</a>
             </div>
             <div class="project-entry">
               <p><strong>Just Go On</strong> — Core gameplay mechanics and progression systems prototype</p>
-              <a href="https://github.com/SnowyHit/Just-Go-On" class="github-link">github.com/SnowyHit/Just-Go-On</a>
+              <a href="https://github.com/SnowyHit/Just-Go-On" class="project-link">github.com/SnowyHit/Just-Go-On</a>
             </div>
             <div class="project-entry">
               <p><strong>SpaceShip Game</strong> — Spaceship movement, combat mechanics, and physics-based controls</p>
@@ -201,16 +207,16 @@
             </div>
             <div class="project-entry">
               <p><strong>Spin Sample</strong> — Small gameplay and mechanics experiment in Unity</p>
-              <a href="https://github.com/SnowyHit/SpinSample" class="github-link">github.com/SnowyHit/SpinSample</a>
+              <a href="https://github.com/SnowyHit/SpinSample" class="project-link">github.com/SnowyHit/SpinSample</a>
             </div>
             <div class="project-entry">
               <p><strong>Basic Ecosis Sim</strong> — Ecosystem simulation prototype built with Unreal Engine</p>
-              <a href="https://github.com/SnowyHit/EcosisSim" class="github-link">github.com/SnowyHit/EcosisSim</a>
+              <a href="https://github.com/SnowyHit/EcosisSim" class="project-link">github.com/SnowyHit/EcosisSim</a>
             </div>
           </div>
         </div>
 
-        <div lang="tr">
+        <div class="lang-tr">
           <h2>Profil</h2>
           <div class="timeline-item" style="border:none; padding-left:0;">
             <p>Verimli, ölçeklenebilir ve sürdürülebilir yazılım sistemleri geliştirmeye odaklı Bilgisayar Mühendisi. <strong>Unreal Engine 5 (C++)</strong> ve <strong>Unity (C#)</strong> kullanarak yüksek performanslı oynanış sistemlerinde uzmanlaşırken, yazılım mimarisi ve algoritmik verimliliği ön planda tutuyorum.</p>
@@ -242,34 +248,40 @@
 
           <h2>Projeler</h2>
           <div class="timeline-item">
-            <p><strong>Holy Shoot</strong> — Steam Yayını (TaleEra Interactive bünyesinde geliştirildi)</p>
-            <p><strong>Cart Capers</strong> — Solo Geliştirildi ve Yayınlandı (Steam Yayını)</p>
+            <div class="project-entry">
+              <p><strong>Holy Shoot</strong> — Steam Yayını (TaleEra Interactive bünyesinde geliştirildi)</p>
+              <a href="https://store.steampowered.com/app/2881660/Holy_Shoot/" class="project-link">store.steampowered.com/app/2881660/Holy_Shoot/</a>
+            </div>
+            <div class="project-entry">
+              <p><strong>Cart Capers</strong> — Solo Geliştirildi ve Yayınlandı (Steam Yayını)</p>
+              <a href="https://store.steampowered.com/app/3582170/Cart_Capers/" class="project-link">store.steampowered.com/app/3582170/Cart_Capers/</a>
+            </div>
             <p><strong>Heroes Chained</strong> — Ticari Proje</p>
 
             <p style="margin-top:10px; font-weight:700;">Küçük Projeler ve Deneyler</p>
             <div class="project-entry">
               <p><strong>Flow Field Pathfinding</strong> — Unity ile yapılmış bir akış alanı yol bulma örneği</p>
-              <a href="https://github.com/SnowyHit/Flowfield-Example" class="github-link">github.com/SnowyHit/Flowfield-Example</a>
+              <a href="https://github.com/SnowyHit/Flowfield-Example" class="project-link">github.com/SnowyHit/Flowfield-Example</a>
             </div>
             <div class="project-entry">
               <p><strong>LittleRTSbase</strong> — Unity'de RTS tarzı temel sistemler, birim kontrolü ve yapı mantığı</p>
-              <a href="https://github.com/SnowyHit/LittleRTS" class="github-link">github.com/SnowyHit/LittleRTS</a>
+              <a href="https://github.com/SnowyHit/LittleRTS" class="project-link">github.com/SnowyHit/LittleRTS</a>
             </div>
             <div class="project-entry">
               <p><strong>Just Go On</strong> — Temel oynanış mekanikleri ve ilerleme sistemleri prototipi</p>
-              <a href="https://github.com/SnowyHit/Just-Go-On" class="github-link">github.com/SnowyHit/Just-Go-On</a>
+              <a href="https://github.com/SnowyHit/Just-Go-On" class="project-link">github.com/SnowyHit/Just-Go-On</a>
             </div>
             <div class="project-entry">
               <p><strong>SpaceShip Game</strong> — Uzay gemisi hareketi, savaş mekanikleri ve fizik tabanlı kontroller</p>
-              <a href="https://github.com/SnowyHit/SpaceShip" class="github-link">github.com/SnowyHit/SpaceShip</a>
+              <a href="https://github.com/SnowyHit/SpaceShip" class="project-link">github.com/SnowyHit/SpaceShip</a>
             </div>
             <div class="project-entry">
               <p><strong>Spin Sample</strong> — Unity'de küçük bir oynanış ve mekanik deneyi</p>
-              <a href="https://github.com/SnowyHit/SpinSample" class="github-link">github.com/SnowyHit/SpinSample</a>
+              <a href="https://github.com/SnowyHit/SpinSample" class="project-link">github.com/SnowyHit/SpinSample</a>
             </div>
             <div class="project-entry">
               <p><strong>Basic Ecosis Sim</strong> — Unreal Engine ile oluşturulmuş ekosistem simülasyonu prototipi</p>
-              <a href="https://github.com/SnowyHit/EcosisSim" class="github-link">github.com/SnowyHit/EcosisSim</a>
+              <a href="https://github.com/SnowyHit/EcosisSim" class="project-link">github.com/SnowyHit/EcosisSim</a>
             </div>
           </div>
         </div>
@@ -302,8 +314,8 @@
         <p class="meta">2016 – 2021</p>
 
         <h2 id="lang-title">Languages</h2>
-        <p>Turkish — Native</p>
-        <p>English — Upper Intermediate</p>
+        <p id="tr-native">Turkish — Native</p>
+        <p id="en-upper">English — Upper Intermediate</p>
       </div>
     </div>
   </div>
@@ -311,25 +323,36 @@
   <script>
     let currentLang = 'en';
     function toggleLang() {
-      const enElems = document.querySelectorAll('[lang="en"]');
-      const trElems = document.querySelectorAll('[lang="tr"]');
+      const enSection = document.querySelector('.lang-en');
+      const trSection = document.querySelector('.lang-tr');
+      
       const skillsTitle = document.getElementById('skills-title');
       const eduTitle = document.getElementById('edu-title');
       const langTitle = document.getElementById('lang-title');
+      const trNative = document.getElementById('tr-native');
+      const enUpper = document.getElementById('en-upper');
 
       if (currentLang === 'en') {
-        enElems.forEach(el => el.style.display = 'none');
-        trElems.forEach(el => el.style.display = 'block');
+        enSection.style.display = 'none';
+        trSection.style.display = 'block';
+        
         skillsTitle.innerText = "Yetenekler";
         eduTitle.innerText = "Eğitim";
         langTitle.innerText = "Diller";
+        trNative.innerText = "Türkçe — Anadil";
+        enUpper.innerText = "İngilizce — İleri Seviye";
+        
         currentLang = 'tr';
       } else {
-        enElems.forEach(el => el.style.display = 'block');
-        trElems.forEach(el => el.style.display = 'none');
+        enSection.style.display = 'block';
+        trSection.style.display = 'none';
+        
         skillsTitle.innerText = "Skills";
         eduTitle.innerText = "Education";
         langTitle.innerText = "Languages";
+        trNative.innerText = "Turkish — Native";
+        enUpper.innerText = "English — Upper Intermediate";
+        
         currentLang = 'en';
       }
     }

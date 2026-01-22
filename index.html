@@ -8,6 +8,7 @@
     :root {
       --primary-color: #111;
       --accent-color: #3498db;
+      --link-color: #2980b9; /* Distinct blue for links */
       --text-main: #111;
       --text-light: #555;
       --bg-body: #f5f5f5;
@@ -22,7 +23,7 @@
       line-height: 1.4;
     }
 
-    /* CONTROLS (Hidden on Print) */
+    /* CONTROLS */
     .controls {
       position: fixed;
       top: 20px;
@@ -69,8 +70,10 @@
     .name { font-size: 28px; font-weight: 700; letter-spacing: 0.5px; }
     .name a { color: inherit; text-decoration: none; }
     .title { font-size: 13px; color: var(--text-light); margin-top: 2px; }
-    .contact { text-align: right; font-size: 10.5px; line-height: 1.5; }
-    .contact a { color: inherit; text-decoration: none; }
+    
+    .contact { text-align: right; font-size: 10.5px; line-height: 1.6; }
+    .social-link { color: var(--link-color); text-decoration: none; font-weight: 600; }
+    .social-link:hover { text-decoration: underline; }
 
     .content { display: grid; grid-template-columns: 3fr 1.3fr; gap: 25px; }
 
@@ -96,15 +99,14 @@
     ul { padding-left: 15px; margin: 4px 0; }
 
     .project-entry { margin-bottom: 8px; }
-    .project-link { display: block; font-size: 9.5px; color: var(--accent-color); text-decoration: none; }
+    /* Fixed: Consistent font size for all links */
+    .project-link { display: block; font-size: 9.5px; color: var(--link-color); text-decoration: none; }
 
     .tag-group { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 12px 0; }
     .tag { font-size: 9.5px; border: 1px solid #ccc; padding: 2px 6px; background: #fafafa; border-radius: 3px; }
 
-    /* Initial state for TR content */
     .lang-tr { display: none; }
 
-    /* ONE PAGE PRINT OPTIMIZATION */
     @media print {
       body { background: #fff; }
       .controls { display: none !important; }
@@ -134,13 +136,14 @@
     <div class="header">
       <div>
         <div class="name"><a href="https://tr.linkedin.com/in/mert-karavural">Mert Karavural</a></div>
-        <div class="title">Computer Engineer · Game Developer</div>
+        <div class="title" id="job-title">Computer Engineer · Game Developer</div>
       </div>
       <div class="contact">
-        Turkey<br />
-        <a href="mailto:mert.karavural@gmail.com">mert.karavural@gmail.com</a><br />
-        <a href="https://tr.linkedin.com/in/mert-karavural">LinkedIn</a><br />
-        <a href="https://github.com/SnowyHit">GitHub</a>
+        <span id="header-loc">Turkey</span><br />
+        <span id="header-birth">Birthday: 01.01.1998</span><br />
+        <a href="mailto:mert.karavural@gmail.com" class="social-link">mert.karavural@gmail.com</a><br />
+        <a href="https://tr.linkedin.com/in/mert-karavural" class="social-link">LinkedIn</a><br />
+        <a href="https://github.com/SnowyHit" class="social-link">GitHub</a>
       </div>
     </div>
 
@@ -203,7 +206,7 @@
             </div>
             <div class="project-entry">
               <p><strong>SpaceShip Game</strong> — Spaceship movement, combat mechanics, and physics-based controls</p>
-              <a href="https://github.com/SnowyHit/SpaceShip" class="github-link">github.com/SnowyHit/SpaceShip</a>
+              <a href="https://github.com/SnowyHit/SpaceShip" class="project-link">github.com/SnowyHit/SpaceShip</a>
             </div>
             <div class="project-entry">
               <p><strong>Spin Sample</strong> — Small gameplay and mechanics experiment in Unity</p>
@@ -289,28 +292,28 @@
 
       <div class="side">
         <h2 id="skills-title">Skills</h2>
-        <p><strong>Engines</strong></p>
+        <p><strong id="label-engines">Engines</strong></p>
         <div class="tag-group">
           <span class="tag">Unreal Engine 5</span> <span class="tag">Unity</span>
         </div>
-        <p><strong>Languages</strong></p>
+        <p><strong id="label-langs">Languages</strong></p>
         <div class="tag-group">
           <span class="tag">C++</span> <span class="tag">C#</span>
         </div>
-        <p><strong>Concepts</strong></p>
+        <p><strong id="label-concepts">Concepts</strong></p>
         <div class="tag-group">
           <span class="tag">OOP</span> <span class="tag">Gameplay Systems</span>
           <span class="tag">Replication</span> <span class="tag">Debugging</span>
           <span class="tag">Profiling</span>
         </div>
-        <p><strong>Tools</strong></p>
+        <p><strong id="label-tools">Tools</strong></p>
         <div class="tag-group">
           <span class="tag">Git, Jira, Trello</span>
         </div>
 
         <h2 id="edu-title">Education</h2>
         <p><strong>Pamukkale University</strong></p>
-        <p>BSc Computer Engineering</p>
+        <p id="label-degree">BSc Computer Engineering</p>
         <p class="meta">2016 – 2021</p>
 
         <h2 id="lang-title">Languages</h2>
@@ -326,8 +329,16 @@
       const enSection = document.querySelector('.lang-en');
       const trSection = document.querySelector('.lang-tr');
       
+      const jobTitle = document.getElementById('job-title');
+      const headerLoc = document.getElementById('header-loc');
+      const headerBirth = document.getElementById('header-birth');
       const skillsTitle = document.getElementById('skills-title');
+      const labelEngines = document.getElementById('label-engines');
+      const labelLangs = document.getElementById('label-langs');
+      const labelConcepts = document.getElementById('label-concepts');
+      const labelTools = document.getElementById('label-tools');
       const eduTitle = document.getElementById('edu-title');
+      const labelDegree = document.getElementById('label-degree');
       const langTitle = document.getElementById('lang-title');
       const trNative = document.getElementById('tr-native');
       const enUpper = document.getElementById('en-upper');
@@ -336,8 +347,16 @@
         enSection.style.display = 'none';
         trSection.style.display = 'block';
         
+        jobTitle.innerText = "Bilgisayar Mühendisi · Oyun Geliştirici";
+        headerLoc.innerText = "Türkiye";
+        headerBirth.innerText = "Doğum Tarihi: 01.01.1998";
         skillsTitle.innerText = "Yetenekler";
+        labelEngines.innerText = "Motorlar";
+        labelLangs.innerText = "Diller";
+        labelConcepts.innerText = "Kavramlar";
+        labelTools.innerText = "Araçlar";
         eduTitle.innerText = "Eğitim";
+        labelDegree.innerText = "Lisans, Bilgisayar Mühendisliği";
         langTitle.innerText = "Diller";
         trNative.innerText = "Türkçe — Anadil";
         enUpper.innerText = "İngilizce — İleri Seviye";
@@ -347,8 +366,16 @@
         enSection.style.display = 'block';
         trSection.style.display = 'none';
         
+        jobTitle.innerText = "Computer Engineer · Game Developer";
+        headerLoc.innerText = "Turkey";
+        headerBirth.innerText = "Birthday: 01.01.1998";
         skillsTitle.innerText = "Skills";
+        labelEngines.innerText = "Engines";
+        labelLangs.innerText = "Languages";
+        labelConcepts.innerText = "Concepts";
+        labelTools.innerText = "Tools";
         eduTitle.innerText = "Education";
+        labelDegree.innerText = "BSc Computer Engineering";
         langTitle.innerText = "Languages";
         trNative.innerText = "Turkish — Native";
         enUpper.innerText = "English — Upper Intermediate";
